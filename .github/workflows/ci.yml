@@ -9,15 +9,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-        with:
-          persist-credentials: false
-      - name: Install and Build
-        run: |
-          yarn install
-          yarn docs:build
-      - name: Deploy
+      - name: Build and Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.2
-        with:
-          branch: gh-pages
-          folder: ./.docs/.vitepress/dist
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          BUILD_SCRIPT: yarn && yarn docs:build
 
