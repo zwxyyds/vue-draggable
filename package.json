@@ -1,0 +1,16 @@
+{
+  "name": "vitepress-learn",
+  "version": "1.0.0",
+  "description": "learn vitepress",
+  "main": "index.js",
+  "author": "zhangwenxin",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.3"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  }
+}
