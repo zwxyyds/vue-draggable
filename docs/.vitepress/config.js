@@ -4,12 +4,13 @@
  * @Author: Zhangwenxin
  * @Date: 2023-07-01 10:53:10
  * @LastEditors: Zhangwenxin
- * @LastEditTime: 2023-07-01 14:25:11
+ * @LastEditTime: 2023-07-01 21:27:33
  */
 import { sidebar } from './sidebar';
 module.exports = {
     title: "blog",
     description: "Front end project and tips sharing",
+    base: '/vitepress-learn/',
     themeConfig: {
         siteTitle: "Vitepress-Learn",
         logo: "/logo.svg",
