@@ -5,6 +5,7 @@
   "main": "index.js",
   "author": "zhangwenxin",
   "license": "MIT",
+  "homepage": "https://zwxyyds.github.io/vitepress-learn/",
   "devDependencies": {
     "vitepress": "^1.0.0-beta.3"
   },
