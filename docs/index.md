@@ -2,7 +2,7 @@
 layout: home
 
 title: Vitepress-Learn 
-titleTemplate: 第一次vitepress尝试
+titleTemplate: 第一次vitepress尝试1
 
 hero:
   name: Vitepress-Learn
