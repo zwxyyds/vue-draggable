@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "learn vitepress",
   "main": "index.js",
-  "author": "zhangwenxin",
+  "author": {
+    "name": "zhangwenxin",
+    "email": "1048334128@qq.com"
+  },
   "license": "MIT",
   "homepage": "https://zwxyyds.github.io/vitepress-learn/",
   "devDependencies": {

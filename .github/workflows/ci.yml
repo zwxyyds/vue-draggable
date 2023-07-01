@@ -20,4 +20,12 @@ jobs:
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: docs/.vitepress/dist # The folder the action should deploy.
+        run:
+            cd docs/.vitepress/dist  #进到dist目录
+            git init  #执行这些git命令
+            git add -A  
+            git commit -m 'deploy'
+            git push -f git@github.com:zwxyyds/vitepress-learn.git master:gh-pages  #提交到这个分支
+            cd -
+            rm -rf docs/.vitepress/dist  #删除dist文件夹
 
