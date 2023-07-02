@@ -4,7 +4,7 @@
  * @Author: Zhangwenxin
  * @Date: 2023-07-01 10:53:10
  * @LastEditors: Zhangwenxin
- * @LastEditTime: 2023-07-02 20:28:13
+ * @LastEditTime: 2023-07-02 20:56:43
  */
 import { sidebar } from './sidebar';
 import { resolve } from 'path'
@@ -50,4 +50,9 @@ export default defineConfigWithTheme({
             dark: 'github-dark'
         }
     },
+    buildEnd() {
+        setTimeout(() => {
+            process.exit(0)
+        }, 2000)
+    }
 })

@@ -15,6 +15,13 @@
     "vue3.x"
   ],
   "homepage": "https://zwxyyds.github.io/vue-draggable/",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-draggable.js",
+      "require": "./dist/vue-draggable.cjs",
+      "default": "./dist/vue-draggable.umd.cjs"
+    }
+  },
   "scripts": {
     "docs:dev": "initial-scan docs && vitepress dev .docs --host",
     "docs:build": "initial-scan docs && cross-env NODE_ENV=production vitepress build .docs",
