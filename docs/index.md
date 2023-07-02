@@ -2,11 +2,11 @@
 layout: home
 
 title: Vitepress-Learn 
-titleTemplate: 第一次vitepress尝试1
+titleTemplate: 第一次vitepress尝试
 
 hero:
   name: Vitepress-Learn
-  text: 第一次vitepress尝试
+  text: 学习用vitepress搭建并发布到GitHub
   image:
      src: /logo.svg
   actions:
