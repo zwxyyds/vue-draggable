@@ -1,12 +1,12 @@
 ---
 layout: home
 
-title: Vitepress-Learn 
-titleTemplate: 第一次vitepress尝试
+title: vue-draggable 
+titleTemplate: 
 
 hero:
-  name: Vitepress-Learn
-  text: 学习用vitepress搭建并发布到GitHub
+  name: vue-draggable
+  text: 开始学习吧
   image:
      src: /logo.svg
   actions:

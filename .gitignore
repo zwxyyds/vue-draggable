@@ -4,3 +4,4 @@ coverage
 .eslintcache
 .vitepress/cache
 .docs
+yarn.lock

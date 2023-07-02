@@ -1,20 +1,41 @@
 {
-  "name": "vitepress-learn",
+  "name": "vue-draggable",
   "version": "1.0.0",
   "description": "learn vitepress",
-  "main": "index.js",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/vue-draggable.umd.cjs",
+  "module": "./dist/vue-draggable.js",
   "author": {
     "name": "zhangwenxin",
     "email": "1048334128@qq.com"
   },
   "license": "MIT",
-  "homepage": "https://zwxyyds.github.io/vitepress-learn/",
-  "devDependencies": {
-    "vitepress": "^1.0.0-beta.3"
-  },
+  "keywords": [
+    "vue3.x"
+  ],
+  "homepage": "https://zwxyyds.github.io/vue-draggable/",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:dev": "initial-scan docs && vitepress dev .docs --host",
+    "docs:build": "initial-scan docs && cross-env NODE_ENV=production vitepress build .docs",
+    "serve": "cross-env NODE_ENV=production vitepress serve .docs --host"
+  },
+  "devDependencies": {
+    "@ruabick/md-demo-plugins": "latest",
+    "@ruabick/vite-plugin-gen-temp": "latest",
+    "@ruabick/vitepress-demo-block": "latest",
+    "@types/node": "^20.3.3",
+    "sortablejs": "^1.15.0",
+    "typescript": "^4.9.5",
+    "vite": "latest",
+    "vite-plugin-dts": "^1.4.0",
+    "vitepress": "^1.0.0-beta.3",
+    "vue": "^3.2.47",
+    "vue-demi": "^0.13.11"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
   }
 }

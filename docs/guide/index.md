@@ -10,7 +10,7 @@
 
 ## 步骤1 创建并进入一个目录
 ```sh
-$ mkdir vitepress-learn && cd vitepress-learn
+$ mkdir vue-draggable && cd vue-draggable
 ```
 ## 步骤2  创建并进入一个目录（我这边是使用yarn）
 ```sh
@@ -24,7 +24,7 @@ yarn add --dev vitepress
 
 ## 步骤4 在目录下新建docs文件夹
 ```
-vitepress-learn
+vue-draggable
 │   package.json   
 │
 └───docs

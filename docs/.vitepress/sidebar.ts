@@ -4,7 +4,7 @@
  * @Author: Zhangwenxin
  * @Date: 2023-07-01 14:09:43
  * @LastEditors: Zhangwenxin
- * @LastEditTime: 2023-07-02 12:41:24
+ * @LastEditTime: 2023-07-02 20:30:29
  */
 export const sidebar = {
     '/': [
@@ -17,8 +17,8 @@ export const sidebar = {
             items: [{ text: '等待开发', link: '/show' }]
         },
         {
-            text: 'API',
-            items: [{ text: 'API', link: '/api/' }]
+            text: '组件使用',
+            items: [{ text: '基础', link: '/demo/basic/', activeMatch: '^/demo/' }]
         }
     ]
 }

@@ -7,7 +7,7 @@
  * @LastEditTime: 2023-07-02 13:02:36
 -->
 # 预览地址
-⚔️⚔️⚔️⚔️⚔️⚔️  [中文文档](https://zwxyyds.github.io/vitepress-learn/)
+⚔️⚔️⚔️⚔️⚔️⚔️  [中文文档](https://zwxyyds.github.io/vue-draggable/)
 
 ## 🔨 How to use
 ---
