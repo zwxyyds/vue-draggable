@@ -4,14 +4,14 @@
  * @Author: Zhangwenxin
  * @Date: 2023-07-02 19:45:20
  * @LastEditors: Zhangwenxin
- * @LastEditTime: 2023-07-02 20:55:42
+ * @LastEditTime: 2023-07-05 13:59:14
  */
 import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import dts from 'vite-plugin-dts'
 export default defineConfig({
-    plugins: [vue(), dts()],
+    plugins: [vue(), dts(), require('tailwindcss')],
     server: {
         port: 5230
     },

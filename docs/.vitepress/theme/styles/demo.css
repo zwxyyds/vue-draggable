@@ -1,3 +1,7 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .vitepress-demo button {
     padding: 3px 15px;
     background-color: var(--vp-c-brand);

@@ -4,14 +4,14 @@
  * @Author: Zhangwenxin
  * @Date: 2023-07-02 13:25:41
  * @LastEditors: Zhangwenxin
- * @LastEditTime: 2023-07-02 20:43:55
+ * @LastEditTime: 2023-07-05 14:52:28
 -->
 
 <template>
     <button>start</button>
     <button class="orange">pause</button>
-    <VueDraggable :list="list">
-        <div v-for="(item, index) in list " :key="index" class="demo-list">
+    <VueDraggable :list="list" class="w-auto flex flex-col gap-2 m-auto bg-gray-500/5 rounded p-4">
+        <div v-for="(item, index) in list " :key="index" class=" cursor-move w-36 bg-gray-500/5 rounded p-3 ">
             <span>{{ item.name }}-{{ item.iconImg }}</span>
         </div>
     </VueDraggable>
@@ -33,15 +33,4 @@ const list = ref([
 ])
 </script>
 
-<style scoped>
-.demo-list {
-    width: 300px;
-    height: 30px;
-
-    border: 1px solid green;
-    border-radius: 15px;
-    cursor: pointer;
-    text-align: center;
-    margin-bottom: 10px;
-}
-</style>
+<style scoped></style>
